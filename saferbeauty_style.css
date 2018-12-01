@@ -18,7 +18,16 @@ body {
 	text-align: center;
 	color: black;
 	font-weight: bold;
+}
 
+#crest1 {
+  position: fixed;
+  top: 10px;
+}
+
+#crest2 {
+  position: fixed;
+  top: 60px;
 }
 
 #topnav {
