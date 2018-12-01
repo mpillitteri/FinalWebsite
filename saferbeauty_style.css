@@ -1,0 +1,110 @@
+body {
+	background-color:linen;
+}
+
+#wrapper {
+	width:1000px;
+	height: 600px;
+	margin: auto;
+	margin-bottom: 50px;
+	background-color:beige;
+}
+
+#header {
+	width:800px;
+	height:50px;
+	margin: auto;
+	background-color:linen;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+
+}
+
+#topnav {
+	float: left;
+	width:790px;
+	height: 50px;
+	background-color:lightblue;
+	text-align: left;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	padding:5px;
+}
+
+#content {
+	float: left;
+	width:790px;
+	height: 200px;
+	margin:auto;
+	position: relative;
+	background-color: lightyellow;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+
+#categories {
+	float: left;
+	width:790px;
+	height: 220px;
+	margin:auto;
+	position: relative;
+	background-color: lightblue;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+#household {
+	float: left;
+	width:200px;
+	height: 200px;
+	margin:auto;
+	position: relative;
+	background-color: lighblue;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+#makeup {
+	float: left;
+	width:200px;
+	height: 200px;
+	margin:auto;
+	position: relative;
+	background-color: lightblue;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+#garden {
+	float: left;
+	width:200px;
+	height: 200px;
+	margin:auto;
+	position: relative;
+	background-color: lightblue;
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+
+#footer {
+	float: left;
+	width:790px;
+	height:50px;
+	margin:auto;
+	position: relative;
+	background-color:yellow;
+	text-align:left;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	padding:5px;
+}
