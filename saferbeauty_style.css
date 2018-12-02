@@ -1,38 +1,52 @@
+/* HEX Color List:
+	off white = #FFFCF7 (Complementary = #F7FAFF)
+	light green = #D5E7E7 (Complementary = #DEDEDE)
+	darker green = #91C7C9 (Complementary = #C99391)
+	light blue = #C5E1EF (Complementary = #EFD3C5)
+	dark blue = #2F5597 (Complementary = #97712F)
+*/
+
 body {
-	background-color:linen;
+	background-color:#91C7C9;
 }
 
 #wrapper {
-	width:1000px;
-	height: 600px;
+	width:800px;
+	height: 800px;
 	margin: auto;
-	margin-bottom: 50px;
-	background-color:beige;
+	background-color:white;
 }
 
 #header {
+	position: fixed;
 	width:800px;
 	height:50px;
 	margin: auto;
-	background-color:linen;
-	text-align: center;
-	color: black;
+	background-color:lightblue;
+	font: Helvetica;
+	color: navy;
 	font-weight: bold;
 }
 
 #crest1 {
   position: fixed;
-  top: 10px;
+  top: 5px;
+	left: 5px;
 }
 
 #crest2 {
   position: fixed;
-  top: 60px;
+  top: 0px;
+	left: 60px;
+}
+
+h1 {
+	text-align: center;
 }
 
 #topnav {
 	float: left;
-	width:790px;
+	width:795px;
 	height: 50px;
 	background-color:lightblue;
 	text-align: left;
@@ -44,60 +58,71 @@ body {
 
 #content {
 	float: left;
-	width:790px;
-	height: 200px;
+	width:795px;
 	margin:auto;
 	position: relative;
-	background-color: lightyellow;
+	background-color: #FFFCF7;
 	text-align: left;
 	font-weight: bold;
-	color: black;
+	color: navy;
 	font-size: 14px;
 }
 
 #categories {
 	float: left;
-	width:790px;
-	height: 220px;
+	width:795px;
+	height: 205px;
 	margin:auto;
 	position: relative;
-	background-color: lightblue;
+	background-color: #FFFCF7;
 	text-align: left;
 	font-weight: bold;
-	color: black;
+	color: navy;
 	font-size: 14px;
 }
 #household {
 	float: left;
-	width:200px;
+	width:250px;
 	height: 200px;
 	margin:auto;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 12px;
 	position: relative;
-	background-color: lighblue;
+	background-color: #FFFCF7;
 	text-align: left;
 	font-weight: bold;
-	color: black;
+	color: navy;
 	font-size: 14px;
 }
 #makeup {
 	float: left;
-	width:200px;
+	width:250px;
 	height: 200px;
 	margin:auto;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
 	position: relative;
-	background-color: lightblue;
+	background-color: #FFFCF7;
 	text-align: left;
 	font-weight: bold;
-	color: black;
+	color: navy;
 	font-size: 14px;
 }
 #garden {
 	float: left;
-	width:200px;
+	width:250px;
 	height: 200px;
 	margin:auto;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
 	position: relative;
-	background-color: lightblue;
+	background-color: #FFFCF7;
 	text-align: left;
 	font-weight: bold;
 	color: black;
@@ -110,8 +135,8 @@ body {
 	height:50px;
 	margin:auto;
 	position: relative;
-	background-color:yellow;
-	text-align:left;
+	background-color:#C5E1EF;
+	text-align:center;
 	color: black;
 	font-size: 14px;
 	font-weight: bold;
