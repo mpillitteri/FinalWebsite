@@ -1,9 +1,10 @@
 /* HEX Color List:
-	off white = #FFFCF7 (Complementary = #F7FAFF)
-	light green = #D5E7E7 (Complementary = #DEDEDE)
-	darker green = #91C7C9 (Complementary = #C99391)
-	light blue = #C5E1EF (Complementary = #EFD3C5)
-	dark blue = #2F5597 (Complementary = #97712F)
+	off white (linen) = #FFFCF7 (Complementary = #F7FAFF)
+	light green (grass) = #D5E7E7 (Complementary = #DEDEDE)
+	darker green (grass) = #91C7C9 (Complementary = #C99391)
+	light blue (sky) = #C5E1EF (Complementary = #EFD3C5)
+	dark blue (font colour) = #2F5597 (Complementary = #97712F)
+	yellow (lemon) = #F5D44C (Complementary = #4C6DF5)
 */
 
 body {
@@ -22,22 +23,25 @@ body {
 	width:800px;
 	height:50px;
 	margin: auto;
-	background-color:lightblue;
+	background-color:yellow;
 	font: Helvetica;
-	color: navy;
+	color: #2F5597;
 	font-weight: bold;
 }
 
 #crest1 {
-  position: fixed;
-  top: 5px;
-	left: 5px;
+  width: 50px;
+	height: 60px;
+	position: fixed;
+  top: 0px;
+
 }
 
 #crest2 {
-  position: fixed;
+  width: 50px;
+	height: 60px;
+	position: fixed;
   top: 0px;
-	left: 60px;
 }
 
 h1 {
@@ -46,14 +50,52 @@ h1 {
 
 #topnav {
 	float: left;
-	width:795px;
+	width:790px;
 	height: 50px;
-	background-color:lightblue;
+	background-color: #C5E1EF;
 	text-align: left;
-	color: black;
+	color: #2F5597;
 	font-size: 14px;
 	font-weight: bold;
-	padding:5px;
+	margin-top:60px;
+	padding:20px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C5E1EF;
+    position: fixed;
+    top: 0;
+    width: 800px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #C5E1EF
+		color: #2F5597;
+;
+}
+
+.active {
+    background-color: #2F5597;
+		color: #FFFCF7;
 }
 
 #content {
@@ -71,7 +113,7 @@ h1 {
 #categories {
 	float: left;
 	width:795px;
-	height: 205px;
+	height: 200px;
 	margin:auto;
 	position: relative;
 	background-color: #FFFCF7;
@@ -83,11 +125,11 @@ h1 {
 #household {
 	float: left;
 	width:250px;
-	height: 200px;
+	height: 190px;
 	margin:auto;
-	margin-top: 10px;
-	margin-right: 5px;
-	margin-bottom: 5px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
 	margin-left: 12px;
 	position: relative;
 	background-color: #FFFCF7;
@@ -99,12 +141,12 @@ h1 {
 #makeup {
 	float: left;
 	width:250px;
-	height: 200px;
+	height: 190px;
 	margin:auto;
-	margin-top: 10px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	margin-left: 6px;
 	position: relative;
 	background-color: #FFFCF7;
 	text-align: left;
@@ -115,12 +157,12 @@ h1 {
 #garden {
 	float: left;
 	width:250px;
-	height: 200px;
+	height: 190px;
 	margin:auto;
-	margin-top: 10px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	margin-left: 6px;
 	position: relative;
 	background-color: #FFFCF7;
 	text-align: left;
@@ -137,7 +179,7 @@ h1 {
 	position: relative;
 	background-color:#C5E1EF;
 	text-align:center;
-	color: black;
+	color: #2F5597;
 	font-size: 14px;
 	font-weight: bold;
 	padding:5px;
