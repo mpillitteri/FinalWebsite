@@ -20,8 +20,7 @@ body {
 
 #header {
 	float:left;
-	position: relative;
-	width:800px;
+	width:745px;
 	height:200px;
 	margin: auto;
 	background-color:#FFFCF7;
@@ -30,19 +29,27 @@ body {
 	text-align: left;
 	vertical-align: middle;
 	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 55px;
 }
 
 #crest1 {
-  width: 30px;
-	float:left;
+	float: left;
+	margin-left: 10px;
 }
 
 #crest2 {
-  width: 30px;
 	float:left;
+	margin-left: 10px;
 }
 
-/* Reference: https://www.w3schools.com/css/css_navbar.asp */
+#logo {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+
+/* Reference: https://www.w3schools.com/css/css_navbar.asp and https://stackoverflow.com/questions/905033/how-to-use-hover-in-css
 #topnav {
 	float: left;
 	width:760px;
@@ -50,14 +57,15 @@ body {
 	background-color: #C5E1EF;
 	text-align: center;
 	color: #2F5597;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 	margin-top:100px;
-	padding:20px;
 }
+*/
 
 li {
     display: inline;
+		float: left;
 }
 
 ul {
@@ -67,19 +75,16 @@ ul {
     overflow: hidden;
     background-color: #C5E1EF;
     position: fixed;
-    top: 110px;
+    top: 160px;
     width: 800px;
 		text-align: center;
-}
-
-li {
-    float: left;
+		font-family: sans-serif;
 }
 
 li a {
     display: block;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 23px;
     text-decoration: none;
 }
 
@@ -176,6 +181,7 @@ li a:hover:not(.active) {
 	text-align:center;
 	color: #2F5597;
 	font-size: 14px;
+	font-family: sans-serif;
 	font-weight: bold;
 	padding:5px;
 }
