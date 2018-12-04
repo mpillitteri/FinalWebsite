@@ -6,6 +6,7 @@
 <title>Safer Beauty - Final Website - Maria Pillitteri</title>
 <link href="saferbeauty_style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="saferbeauty_script.js"></script>
+
 </head>
 
 <!-- COMMENTS
@@ -21,6 +22,8 @@
        of at least 500 words - almost DONE
     7. Proper CSS and xHTML compliance - DONE
     8. At least two separate Javascript functions (time/date, content filling, etc.)
+       a. JS Button - DONE
+       b. JS Form - almost done
 
     PART 3: (30 marks)
     1. Marks will be assigned for additional components and functionality above and beyond (~5 marks each), such as:
@@ -58,15 +61,37 @@
 
 <div id="content"><a href="saferbeauty.html"><img src="body_homepage.PNG" width="800" alt="Homepage Story"/></a></div>
 
+
 <div id="categories">
   <div id="household"><a href="saferbeauty_household.html"><img src="household.PNG" width="250" alt="Household Products"/></a></div>
   <div id="makeup"><a href="saferbeauty_makeup.html"><img src="makeup.PNG" width="250" alt="Beauty and Makeup"/></a></div>
   <div id="garden"><a href="saferbeauty_garden.html"><img src="garden.PNG" width="250" alt="Lawn and Garden"/></a></div>
 </div>
 
-<div id="footer">
-  <div id="contact">Contact Us</div>
+  <div id="footer">
+
+<!-- Button References: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick
+<button type="contact">Contact Us</button>
+-->
+    <button onclick="contactUs()">Contact Us</button>
+    <p id="contactinfo"></p>
+
+<!--  Forms References: Class lecture and https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js
+-->
   <div id="subscribe">Subscribe</div>
+
+    <form name="subscribeForm">
+    <input type="text" id="subscribe" name="stuff" />
+    <button type="submit" onclick="addWords()">Submit</button>
+    </form>
+<!--
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+    </form>
+-->
+<script type="text/javascript" src="saferbeauty_script.js"></script>
+
 </div>
 
 </div>
